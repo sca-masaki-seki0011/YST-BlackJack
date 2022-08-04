@@ -2,7 +2,7 @@
 //自分たちで独自に考えた内容も含まれます。
 
 #include <algorithm> //ソート
-#include <iostream>
+#include <iostream>//入出力
 #include <random> //乱数生成
 #include <vector> //可変長配列
 using namespace std;
@@ -582,9 +582,9 @@ int main() {
     //残高が0になったらの処理    
     else if(zandaka == 0)
     {
-      return 0;
-      cout << "====================" << endl;
+　　　cout << "====================" << endl;
       cout << "GAME FINISH" << endl;
+      return 0;
     }
 
     //バーストしている場合
